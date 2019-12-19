@@ -1,0 +1,23 @@
+{
+  "id": "1569895",
+  "name": "文豆",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2940013",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "9858075",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    }
+  ]
+}
