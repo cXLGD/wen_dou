@@ -104,9 +104,122 @@
     </div>
     </section>
     
+    <!-- services -->
+    <section>
+        <div class="container services">
+            <div class="row">
+                <div class="col-md-12 text-center services-title">
+                    <h3>我们的服务</h3>
+                    <h6>Services</h6>
+                    <hr class="center-block">
+                    <p>我们为您提供，最精致的服务，最全面的技术</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-items">
+                    <div class="col-md-2 text-center item active">
+                        <img src="./images/service1.png" class="center-block" alt="">
+                        <h6>高品质网站</h6>
+                        <p>解决方案</p>
+                    </div>
+                    <div class="col-md-2 text-center item">
+                        <img src="./images/service2.png" class="center-block" alt="">
+                        <h6>电子商务平台</h6>
+                        <p>解决方案</p>
+                    </div>
+                    <div class="col-md-2 text-center item">
+                        <img src="./images/service3.png" class="center-block" alt="">
+                        <h6>PHP网站开发人才</h6>
+                        <p>培养服务</p>
+                    </div>
+                    <div class="col-md-2 text-center item">
+                        <img src="./images/service4.png" class="center-block" alt="">
+                        <h6>网站创意设计</h6>
+                        <p>解决方案</p>
+                    </div>
+                    <div class="col-md-2 text-center item">
+                        <img src="./images/service5.png" class="center-block" alt="">
+                        <h6>微信应用公众号开发</h6>
+                        <p>解决方案</p>
+                    </div>
+                    <div class="col-md-2 text-center item">
+                        <img src="./images/service6.png" class="center-block" alt="">
+                        <h6>高品质网站</h6>
+                        <p>解决方案</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- cases -->
+    <section>
+        <div class="container-fluid cases">
+            <div class="container">
+                <div class="row">
+                <div class="col-md-12 text-center cases-title">
+                    <h3>案例展示</h3>
+                    <h6>Cases</h6>
+                    <hr class="center-block">
+                    <ul class="center-block">
+                        <li class="active"><a href="">企业品牌网站</a></li>
+                        <li><a href="">电子商务网站</a></li>
+                        <li><a href="">门户型网站</a></li>
+                        <li><a href="">管理系统</a></li>
+                        <li><a href="">团购</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cases-items">
+                        <a href=""><img src="./images/case1.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case2.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case3.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case4.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case5.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case6.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case7.png" class="center-block" alt=""></a>
+                        <a href=""><img src="./images/case8.png" class="center-block" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </section>
 
+    <!-- about us -->
+    <section>
+        <div class="container-fluid about">
+            <div class="row">
+                <div class="col-md-12 text-center us">
+                    <h3>关于我们</h3>
+                    <h6>About us</h6>
+                    <hr class="center-block">
+                    <p>不用担心距离, 文豆就在你身边</p>
+                    <p class="content center-block">豆网络是一家提供互联网服务的高科技集团公司集策划、设计、前端优化、研发、测试、系统运维、网站
+                        推广、运营、团队外包及互联网人才培养为一体的成熟业务体系......</p>
+                    <img src="./images/go.png" class="center-block" alt="">
+                    <div class="look center-block">点击查看</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- 最新资讯 -->
+    <section>
+        <div class="container news">
+            <div class="row">
+                <div class="col-md-12 new">
+                    <div class="new-title">
+                        <h3>最新资讯</h3>
+                        <h6>News<span class="iconfont icon-tianjia-copy"></span></h6>
+                        <hr class="center-block">
+                        <p>不用担心距离, 文豆就在你身边</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./lib/swiper/package/js/swiper.min.js"></script>
@@ -116,6 +229,12 @@
     <script>
         $(function(){
             $('.navbar ul li').mouseenter(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+            $('.services-items .item').mouseenter(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+            $('.cases .cases-title ul li').mouseenter(function(){
                 $(this).addClass('active').siblings().removeClass('active');
             })
         })
