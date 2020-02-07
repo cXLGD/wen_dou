@@ -34,6 +34,13 @@
       "unicode_decimal": 59119
     },
     {
+      "icon_id": "4038797",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
       "icon_id": "5667262",
       "name": "添加",
       "font_class": "tianjia-copy",
