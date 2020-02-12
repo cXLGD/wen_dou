@@ -1,0 +1,31 @@
+/* 路径导航 */
+.lujing{
+    margin: 30px 0; 
+}
+.lujing .breadcrumb{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    display: inline-block;
+}
+.breadcrumb>li+li:before{
+    content: '>';
+}
+.lujing .breadcrumb li a{
+    color: #434343;
+}
+.lujing .breadcrumb>.active{
+    color: #fd7a39;
+}
+.lujing .iconfont{
+    font-size: 20px;
+}
+
+/* 内容 */
+.content{
+    padding:20px 0;
+}
+.content .title{
+    font-size:24px;
+    color:#000;
+    font-weight:bold;
+}
