@@ -290,12 +290,14 @@
 .contact .list img{
     margin:10px 5px;
 }
-.contact .beian{
+
+.beian{
     background-color: rgba(0, 0, 0, 0.7);
-    padding:30px 0;
     text-align: center;
 }
-.contact .beian p{
+.beian p{
+    margin:0;
+    padding:15px 0;
     color:#666666;
     font-size: 18px;
 }
