@@ -1,0 +1,75 @@
+/* 路径导航 */
+.lujing{
+    margin: 30px 0; 
+}
+.lujing .breadcrumb{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    display: inline-block;
+}
+.breadcrumb>li+li:before{
+    content: '>';
+}
+.lujing .breadcrumb li a{
+    color: #434343;
+}
+.lujing .breadcrumb>.active a{
+    color: #fd7a39;
+}
+.lujing .iconfont{
+    font-size: 20px;
+}
+
+.title{
+    font-size:24px;
+    color:#000;
+    font-weight:bold;
+    padding-bottom: 50px;
+    
+}
+
+.content{
+    padding:30px 0;
+}
+.content p,
+.content .form-group label{
+    font-size:20px;
+    color:#545454;
+    line-height:30px;
+}
+.content .sub{
+    color: #fff;
+    background-color: #eb6100;
+    font-size: 20px;
+}
+
+.foot{
+    padding:20px 0;
+    background-color: #f8f9f9;
+}
+.foot .left .for{
+    color:#666;
+    font-size: 20px;
+}
+.foot .left .wangz{
+    color:#999;
+    font-size: 20px;
+}
+.foot .center{
+    padding:40px 0;
+    font-size: 20px;
+}
+.foot .center a{
+    padding-left:15px;
+}
+.foot .col-md-4::after{
+    content:'';
+    position: absolute;
+    height:100%;
+    top:5px;
+    width:1px;
+    background-color: #ccc;
+}
+.foot .col-md-4:first-child::after{
+    height:0;
+}
