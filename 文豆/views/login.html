@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="../static/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <section class="nav">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="pull-right login">
+                    <a href=""></a>
+                </div>
+                <div class="logo pull-left">
+                    <img src="../static/images/index/logo.png" alt="">
+                </div>
+                <div class="navbar pull-right">
+                    <ul>
+                        <li><a href="">网站首页</a></li>
+                        <li><a href="">案例展示</a></li>
+                        <li><a href="">关于我们</a></li>
+                        <li class="active"><a href="">咨询动态</a></li>
+                        <li><a href="">联系我们</a></li>
+                        <li class="login"><a href=""><span class="iconfont icon-yonghu"></span></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="background">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-md-offset-7">
+                    <div class="content">
+                        <div class="tou">
+                            <img src="../static/images/login/tou.png" class="center-block" alt="">
+                            <h1 class="text-center">用户登录</h1>
+                        </div>
+                        <div class="form">
+                            <form action="">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="iconfont icon-yonghu1"></span></div>
+                                        <input type="text" class="form-control" id="username" name="username"
+                                            placeholder="用户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><span class="iconfont icon-iconset0192"></span>
+                                        </div>
+                                        <input type="password" class="form-control" id="password" name="password"
+                                            placeholder="密&emsp;码">
+                                    </div>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">自动登录
+                                    </label>
+                                    <a href="" class="pull-right">
+                                        <label>
+                                            忘记密码
+                                        </label>
+                                    </a>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="code" class="form-control" id="code" name="code"
+                                            placeholder="验证码">
+                                            <img src="../static/images/login/33.png" class="code-img" alt="">
+                                            <a href=""><span class="code-change" onclick="">看不清楚换一张</span></a>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-default sub">登录</button>
+                                <p class="text-right register"><a href="">免费注册</a></p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- foot -->
+    <section class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="beian">
+                    <p>粤ICP备12022584号-3</p>
+                    <p>广州文豆网络科技有限公司 Copyright 2009-2015 ,All Rights Reserved wengdo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+    <script src="../static/js/swiper.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+
+    <script>
+        $().ready(function () {
+            $('.navbar ul li').mouseenter(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        });
+    </script>
+</body>
+
+</html>

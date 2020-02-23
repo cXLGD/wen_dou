@@ -6,6 +6,48 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "213329",
+      "name": "留言",
+      "font_class": "liuyan",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "3155616",
+      "name": "显示",
+      "font_class": "xianshi",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "12943089",
+      "name": "感叹号",
+      "font_class": "gantanhao",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "554161",
+      "name": "钥匙",
+      "font_class": "iconset0192",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "12050560",
+      "name": "yonghu",
+      "font_class": "yonghu1",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "10943267",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
       "icon_id": "8743424",
       "name": "jiantouyou",
       "font_class": "youjiantou-",
