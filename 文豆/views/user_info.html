@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="../static/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles/user_info.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 路径导航 -->
+    <section class="lujing">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">用户中心</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="pull-left left">
+                        <div class="user-box">
+                            <img src="../static/images/login/tou.png" class="img-circle user-img" alt="">
+                            <span class="user-name">username</span>
+                        </div>
+                        <div class="user-info">
+                            <div class="user-msg">
+                                <h3>基本信息</h3>
+                            </div>
+                            <div class="user-msg active">
+                                <h3>客户留言</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-left right">
+                        <div class="msg-head">
+                            <h3>用户信息 <a href=""><span class="iconfont icon-liuyan"></span></a></h3>
+                        </div>
+                        <div class="user-info">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="username" class="col-sm-2 control-label">用户名</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control my-form" name="username" id="username"
+                                            placeholder="用户名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="real-name" class="col-sm-2 control-label">真实姓名</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control my-form" name="real-name" id="real-name"
+                                            placeholder="请输入姓名">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sex" class="col-sm-2 control-label">性别</label>
+                                    <div class="col-sm-4" style="padding-top:7px;">
+                                        <input type="radio" name="sex" class="">男
+                                        <input type="radio" name="sex" class="" style="margin-left:20px;">女
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone" class="col-sm-2 control-label">手机</label>
+                                    <div class="col-sm-4">
+                                        <input type="number" class="form-control my-form" name="phone" id="phone"
+                                            placeholder="请输入手机号">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
+                                    <div class="col-sm-4">
+                                        <input type="email" class="form-control my-form" name="email" id="inputEmail3"
+                                            placeholder="请输入邮箱">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="date" class="col-sm-2 control-label">生日</label>
+                                    <div class="col-sm-4">
+                                        <input type="date" class="form-control my-form" name="date" id="date"
+                                            value="请输入您的生日">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+    <script>
+        $().ready(function () {
+            $('.user-msg').hover(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
