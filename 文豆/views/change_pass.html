@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/font/iconfont.css">
+    <link rel="stylesheet" href="../static/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles/change_pass.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 路径导航 -->
+    <section class="lujing">
+        <div class="container">
+            <div class="row">
+                <ol class="breadcrumb">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">用户中心</a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="pull-left left">
+                        <div class="user-box">
+                            <img src="../static/images/login/tou.png" class="img-circle user-img" alt="">
+                            <span class="user-name">username</span>
+                        </div>
+                        <div class="user-info">
+                            <div class="user-msg">
+                                <h3>基本信息</h3>
+                            </div>
+                            <div class="user-msg active">
+                                <h3>客户留言</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pull-left right">
+                        <div class="msg-head">
+                            <h3>用户信息 <a href=""><span class="iconfont icon-liuyan"></span></a></h3>
+                        </div>
+                        <div class="user-info">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="username" class="col-sm-2 control-label">用户名</label>
+                                    <div class="col-sm-4">
+                                        <p type="text" class="form-control-static my-form" id="username">用户名</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="ori-pass" class="col-sm-2 control-label">原密码</label>
+                                    <div class="col-sm-4">
+                                        <input type="password" class="form-control my-form" name="ori-pass"
+                                            id="ori-pass" placeholder="请输入原密码" aria-describedby="inputSuccess2Status">
+                                        <span id="inputSuccess2Status" class="form-control-feedback iconfont icon-xianshi look"></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-5 col-sm-offset-1 control-label">
+                                        <span class="iconfont icon-gantanhao error"></span>
+                                        <span>密码有误，请重新验证</span>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-pass" class="col-sm-2 control-label">设置新密码</label>
+                                    <div class="col-sm-4">
+                                        <input type="password" class="form-control my-form" name="new-pass" id="new-pass"
+                                            placeholder="请输入密码">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="com-pass" class="col-sm-2 control-label">确认新密码</label>
+                                    <div class="col-sm-4">
+                                        <input type="password" class="form-control my-form" name="com-pass" id="com-pass"
+                                        placeholder="请输入密码">
+                                    </div>
+                                </div>
+                                <button type="button" class="col-sm-offset-4 btn sub-pass">确认修改</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+    <script>
+        $().ready(function () {
+            $('.user-msg').hover(function () {
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
